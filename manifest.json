@@ -16,17 +16,6 @@
         "default_popup": "src/popup.html"
     },
     "permissions": [
-        "storage",
-        "tabs",
-        "browsingData",
-        "cookies",
-        "downloads",
-        "history",
-        "notifications",
-        "webNavigation",
-        "webRequest",
-        "webRequestBlocking",
-        "contextualIdentities",
-        "<all_urls>"
+        "storage"
     ]
   }
