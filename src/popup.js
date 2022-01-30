@@ -1,4 +1,9 @@
 browser.storage.local.get("solution").then(function(solution) {
     json = solution.solution;
-    document.getElementById("answer-text").innerHTML = json;
+    let realSolution = "Cannot find solution.";
+    if (json != undefined) {
+        realSolution = json;
+    }
+
+    document.getElementById("answer-text").textContent = realSolution;
 });
