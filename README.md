@@ -7,6 +7,7 @@ its just a simple hack that shows the solution of the day's wordle using an exte
 ## downloads
 
 Firefox: https://addons.mozilla.org/en-US/firefox/addon/wordlehack/
+
 Chrome: *not yet*
 
 ## screenshots
