@@ -7,3 +7,9 @@ its just a simple hack that shows the solution of the day's wordle using an exte
 ## screenshots
 
 <img src="https://cdn.hayasaka.moe/60nr8zwcayrx.jpg" />
+
+# Author
+
+**WordleHack** © [jckli](https://github.com/jckli), Released under the [MIT License](https://github.com/jckli/WordleHack/blob/main/LICENSE).
+
+Authored and maintained by [jckli](https://github.com/jckli).
