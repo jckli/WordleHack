@@ -1,14 +1,14 @@
 {
     "manifest_version": 2,
     "name": "Wordle Hack",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A simple browser extension that shows the solution to each day's wordle puzzle.",
     "icons": {
       "32": "assets/icon/32.png"
     },
     "content_scripts": [
       {
-        "matches": ["*://*.powerlanguage.co.uk/wordle/"],
+        "matches": ["*://*.powerlanguage.co.uk/wordle/", "*://*.nytimes.com/games/wordle/index.html"],
         "js": ["src/js/content.js"]
       }
     ],
@@ -18,4 +18,4 @@
     "permissions": [
         "storage"
     ]
-  }
+}
