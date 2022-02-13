@@ -41,3 +41,12 @@ hr {
     background: #121316;
     border-radius: 10px;
 }
+#info {
+    font-family: Gotham;
+    font-size: 10px;
+    color: #bdc1c6;
+}
+#info > h3 {
+    max-width: 300px;
+    margin: 0 auto;
+}
