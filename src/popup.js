@@ -6,10 +6,9 @@ if (!chrome.app) {
 }
 
 client.storage.local.get("solution", function(solution) {
-    json = solution.solution;
     let realSolution = "Cannot find solution.";
-    if (json != undefined) {
-        realSolution = json;
+    if (solution.solution != undefined) {
+        realSolution = solution.solution;
     }
 
     document.getElementById("answer-text").textContent = realSolution;
