@@ -11,7 +11,7 @@ var allAnswers = [
 
 function daysSinceStart(dt) {
     var current = new Date(dt.getTime());
-    var previous = new Date(2021, 06, 18);
+    var previous = new Date(2021, 06, 21);
   
     return Math.ceil((current - previous + 1) / 86400000);
 }
